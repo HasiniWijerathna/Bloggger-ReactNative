@@ -1,0 +1,33 @@
+{
+  "name": "Bloggger",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-native": "0.45.1",
+    "react-redux": "^5.0.5",
+    "react-redux-form": "^1.12.1",
+    "realm": "^1.8.3",
+    "realm-js": "^1.1.97",
+    "redux": "^3.7.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "babel-jest": "^20.0.0",
+    "babel-preset-react-native": "^2.0.0",
+    "eslint": "3.19.0",
+    "eslint-config-google": "0.7.1",
+    "eslint-plugin-react": "6.10.3",
+    "eslint-plugin-react-native": "2.3.2",
+    "jest": "^20.0.4",
+    "react-test-renderer": "^16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
